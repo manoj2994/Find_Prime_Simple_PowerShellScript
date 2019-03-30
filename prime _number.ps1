@@ -1,6 +1,6 @@
 
 
-Write-Verbose "Helllo Welcome " -Verbose 
+Write-Verbose "Hello Welcome " -Verbose 
 
 Write-Verbose "Enter the number you want to check:" -Verbose 
 

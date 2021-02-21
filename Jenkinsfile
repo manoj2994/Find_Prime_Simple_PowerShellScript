@@ -10,6 +10,7 @@ pipeline {
                     try {
                           def msg = powershell(returnStdout: true, script: 'Write-Output "PowerShell is failed to laod"')
                           println msg
+                        echo "${PASSWORD}"
                     } catch(error) {     
                         retry(3) {
                           def msg = powershell(returnStdout: true, script: 'Write-Output "PowerShell is failed to laod"')
